@@ -1,0 +1,11 @@
+version: '2.3'
+services:
+  openpose:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    working_dir: /usr/local/openpose
+    tty: true
