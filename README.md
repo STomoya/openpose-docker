@@ -76,6 +76,7 @@ Only critical ones.
 ## Problems I came across
 
 <details><summary>template</summary><div>
+
 ```console
 message
 ```
